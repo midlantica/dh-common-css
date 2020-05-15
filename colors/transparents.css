@@ -1,14 +1,14 @@
 :root {
   /* transparent blacks */
-  --transBlack-100: hsla(0, 0%, 0%, 0.1);
-  --transBlack-200: hsla(0, 0%, 0%, 0.25);
-  --transBlack-300: hsla(0, 0%, 0%, 0.5);
-  --transBlack-400: hsla(0, 0%, 0%, 0.75);
-  --transBlack-500: hsla(0, 0%, 0%, 0.9);
+  --trans-black100: hsla(0, 0%, 0%, 0.1);
+  --trans-black200: hsla(0, 0%, 0%, 0.25);
+  --trans-black300: hsla(0, 0%, 0%, 0.5);
+  --trans-black400: hsla(0, 0%, 0%, 0.75);
+  --trans-black500: hsla(0, 0%, 0%, 0.9);
   /* transparent whites */
-  --transWhite-100: hsla(0, 0%, 100%, 0.1);
-  --transWhite-200: hsla(0, 0%, 100%, 0.25);
-  --transWhite-300: hsla(0, 0%, 100%, 0.5);
-  --transWhite-400: hsla(0, 0%, 100%, 0.75);
-  --transWhite-500: hsla(0, 0%, 100%, 1);
+  --trans-white100: hsla(0, 0%, 100%, 0.1);
+  --trans-white200: hsla(0, 0%, 100%, 0.25);
+  --trans-white300: hsla(0, 0%, 100%, 0.5);
+  --trans-white400: hsla(0, 0%, 100%, 0.75);
+  --trans-white500: hsla(0, 0%, 100%, 1);
 }
