@@ -1,19 +1,22 @@
 /* load first */
-@import './dh-normalize.css';
-@import './dh-colors-root.css';
-@import './dh-colors-basics.css';
+@import "./dh-normalize.css";
+@import "./dh-colors-root.css";
+@import "./dh-colors-basics.css";
 /* load after */
-@import './dh-flex-grid.css';
-@import './dh-mortar.css';
-@import './dh-panels.css';
-@import './dh-forms.css';
-@import './dh-buttons.css';
-@import './dh-widths-heights.css';
-@import './dh-hide-show.css';
-@import './dh-text.css';
-@import './dh-typography.css';
-@import './dh-xOut.css';
-@import './dh-border-radius.css';
+@import "./dh-flex-grid.css";
+@import "./dh-mortar.css";
+@import "./dh-borders.css";
+@import "./dh-panels.css";
+@import "./dh-forms.css";
+@import "./dh-buttons.css";
+@import "./dh-widths-heights.css";
+@import "./dh-hide-show.css";
+@import "./dh-text.css";
+@import "./dh-typography.css";
+@import "./dh-xOut.css";
+@import "./dh-border-radius.css";
+@import "./dh-float.css";
+@import "./dh-outline.css";
 
 img,
 video,

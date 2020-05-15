@@ -52,14 +52,56 @@ section.flexColumn {
   flex-wrap: wrap;
 }
 
-.flex-start {
+/*  */
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.flex-grow-0 {
+  flex-grow: 0;
+}
+
+.flex-shrink-1 {
+  flex-shrink: 1;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+/*  */
+.align-i-flex-start {
   align-items: flex-start;
 }
 
-.flex-end {
+.align-i-flex-end {
   align-items: flex-end;
 }
 
-.flex-center {
+.align-i-flex-center {
   align-items: center;
+}
+
+.just-flex-start {
+  justify-content: flex-start;
+}
+
+.just-center {
+  justify-content: center;
+}
+
+.just-flex-end {
+  justify-content: flex-end;
+}
+
+.just-space-between {
+  justify-content: space-between;
+}
+
+.just-space-around {
+  justify-content: space-around;
+}
+
+.just-space-evenly {
+  justify-content: space-evenly;
 }

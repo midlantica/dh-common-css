@@ -2,6 +2,14 @@
   display: block !important;
 }
 
+.inline {
+  display: inline !important;
+}
+
+.inline-block {
+  display: inline-block !important;
+}
+
 .hide {
   display: none !important;
 }
