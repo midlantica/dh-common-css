@@ -1,0 +1,50 @@
+:root {
+  --base-dim: .5rem;
+}
+
+[class^="arrow-"] {
+    display: inline-block;
+    position: relative;
+    /* font-size: calc(var(--base-dim) * 20);
+    text-size-adjust: calc(var(--base-dim) * 2);
+    font-size-adjust: calc(var(--base-dim) * 2); */
+    /* width: 10rem; */
+    top: -2px;
+    margin-right: .75rem;
+}
+
+.arrow-up {
+  width: 0;
+  height: var(--base-dim);
+  border-left: var(--base-dim) solid transparent;
+  border-right: var(--base-dim) solid transparent;
+  border-bottom: var(--base-dim) solid black;
+  top: -.25rem;
+}
+
+.arrow-down {
+  width: 0;
+  height: var(--base-dim);
+  border-left: var(--base-dim) solid transparent;
+  border-right: var(--base-dim) solid transparent;
+  border-top: var(--base-dim) solid black;
+  top: .25rem;
+}
+
+.arrow-right {
+  width: var(--base-dim);
+  height: 0;
+  border-top: var(--base-dim) solid transparent;
+  border-bottom: var(--base-dim) solid transparent;
+  border-left: var(--base-dim) solid black;
+  margin-right: .25rem;
+}
+
+.arrow-left {
+  width: var(--base-dim);
+  height: 0;
+  border-top: var(--base-dim) solid transparent;
+  border-bottom: var(--base-dim) solid transparent;
+  border-right: var(--base-dim) solid black;
+  left: -.3rem;
+}
