@@ -36,3 +36,14 @@
   white-space: nowrap;
   width: 1px;
 }
+
+.float-R,
+.float-right {
+  float: right;
+  clear: right;
+}
+.float-L
+.float-left {
+  float: left;
+  clear: left;
+}

@@ -1,47 +1,56 @@
-/* load first */
-@import "./dh-normalize.css";
-@import "./dh-colors-root.css";
-@import "./dh-colors-basics.css";
-/* load after */
-@import "./dh-flex-grid.css";
-@import "./dh-mortar.css";
-@import "./dh-borders.css";
-@import "./dh-panels.css";
-@import "./dh-forms.css";
-@import "./dh-buttons.css";
-@import "./dh-widths-heights.css";
-@import "./dh-hide-show.css";
-@import "./dh-arrows.css";
-@import "./dh-text.css";
-@import "./dh-typography.css";
-@import "./dh-xOut.css";
-@import "./dh-border-radius.css";
-@import "./dh-float.css";
-@import "./dh-outline.css";
+@import 'dh-normalize.scss';
+@import 'dh-breakpoints.scss';
+@import 'dh-borders.scss';
+@import 'dh-border-radius.scss';
+@import 'dh-buttons.scss';
+@import 'dh-font-smoothing.scss';
+@import 'dh-clearfix.scss';
+@import 'dh-colors-root.scss';
+@import 'dh-colors-basics.scss';
+@import 'dh-flex-grid.scss';
+@import 'dh-line-height.scss';
+@import 'dh-hide-show.scss';
+@import 'dh-linked-colors.scss';
+@import 'dh-font-styles.scss';
+@import 'dh-font-weight.scss';
+@import 'dh-forms.scss';
+@import 'dh-panels.scss';
+@import 'dh-lines-backs.scss';
+@import 'dh-mortar.scss';
+@import 'dh-shadows.scss';
+@import 'dh-scrollbar.scss';
+@import 'dh-text.scss';
+@import 'dh-truncate.scss';
+@import 'dh-typography.scss';
+@import 'dh-widths-heights.scss';
+@import 'dh-xOut.scss';
+@import 'dh-zIndex.scss';
 
-img,
-video,
-audio {
-  max-width: 100%;
-  height: auto;
-}
-
-.redline {
-  border: 1px solid hsl(0, 100%, 80%) !important;
-  background: hsl(350, 100%, 95%) !important;
-}
-
-.blueline {
-  border: 1px solid hsl(180, 77%, 68%) !important;
-  background: hsl(180, 100%, 90%) !important;
-}
-
-.greenline {
-  border: 1px solid hsl(125, 100%, 75%) !important;
-  background: hsl(120, 100%, 95%) !important;
-}
+// img,
+// video,
+// audio {
+//   max-width: 100%;
+//   height: auto;
+// }
 
 ::selection {
   color: #000;
   background: #fbd404;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.hoverYellow:hover {
+  background: hsl(51, 100%, 87%) !important;
+}
+
+.fillW,
+.fillWhite {
+  fill: white;
+}
+.fillK,
+.fillBlack {
+  fill: black;
 }

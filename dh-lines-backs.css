@@ -1,0 +1,144 @@
+.redline {
+  border: 1px solid rgb(255, 70, 70);
+}
+
+.blueline {
+  border: 1px solid rgb(59, 59, 255);
+}
+.redlineBack {
+  border: 1px solid rgb(255, 70, 70);
+  background: pink;
+}
+
+.bluelineBack {
+  border: 1px solid rgb(59, 59, 255);
+  background: rgb(35, 255, 255);
+}
+
+// LINES
+// white, grey, black
+.whiteline {
+  border: 1px solid white;
+}
+.greyline0 {
+  border: 1px solid hsla(0, 0%, 0%, 0.00);
+}
+.greyline01 {
+  border: 1px solid hsla(0, 0%, 0%, 0.1);
+}
+.greyline01 {
+  border: 1px solid hsla(0, 0%, 0%, 0.1);
+}
+.greyline,
+.greyline02 {
+  border: 1px solid hsla(0, 0%, 0%, 0.2);
+}
+.greyline04 {
+  border: 1px solid hsla(0, 0%, 0%, 0.4);
+}
+.greyline05 {
+  border: 1px solid hsla(0, 0%, 0%, 0.5);
+}
+.greyline06 {
+  border: 1px solid hsla(0, 0%, 0%, 0.6);
+}
+.greyline08 {
+  border: 1px solid hsla(0, 0%, 0%, 0.8);
+}
+.greyline100,
+.blackline {
+  border: 1px solid hsla(0, 0%, 0%, 1);
+}
+
+// lines with backgrounds
+.greylineBack0,
+.greylineBackWhite {
+  border: 1px solid hsla(0, 0%, 0%, 0.15);
+  background: white;
+}
+.greylineBack02 {
+  border: 1px solid hsla(0, 0%, 0%, 0.25);
+  background: hsla(0, 0%, 0%, 0.01);
+}
+.greylineBack04 {
+  border: 1px solid hsla(0, 0%, 0%, 0.25);
+  background: hsla(0, 0%, 0%, 0.04);
+}
+.greylineBack06 {
+  border: 1px solid hsla(0, 0%, 0%, 0.25);
+  background: hsla(0, 0%, 0%, 0.06);
+}
+.greylineBack08 {
+  border: 1px solid hsla(0, 0%, 0%, 0.25);
+  background: hsla(0, 0%, 0%, 0.08);
+}
+.greylineBack10 {
+  border: 1px solid hsla(0, 0%, 0%, 0.25);
+  background: hsla(0, 0%, 0%, 0.10);
+}
+.greylineBack25 {
+  border: 1px solid hsla(0, 0%, 0%, 0.25);
+  background: hsla(0, 0%, 0%, 0.25);
+}
+.greylineBack50 {
+  border: 1px solid hsla(0, 0%, 0%, 0.25);
+  background: hsla(0, 0%, 0%, 0.50);
+}
+.greylineBack75 {
+  border: 1px solid hsla(0, 0%, 0%, 0.25);
+  background: hsla(0, 0%, 0%, 0.75);
+}
+.greylineBack100,
+.greylineBackBlack {
+  border: 1px solid hsla(0, 0%, 0%, 0.25);
+  background: hsla(0, 0%, 0%, 1);
+}
+
+
+.greyBack0,
+.greyBackWhite {
+  background: white;
+}
+.greyBack01{
+  background: hsla(0, 0%, 0%, 0.01);
+}
+.greyBack02 {
+  background: hsla(0, 0%, 0%, 0.01);
+}
+.greyBack03 {
+  background: hsla(0, 0%, 0%, 0.03);
+}
+.greyBack04 {
+  background: hsla(0, 0%, 0%, 0.04);
+}
+.greyBack05 {
+  background: hsla(0, 0%, 0%, 0.05);
+}
+.greyBack06 {
+  background: hsla(0, 0%, 0%, 0.06);
+}
+.greyBack07 {
+  background: hsla(0, 0%, 0%, 0.07);
+}
+.greyBack08 {
+  background: hsla(0, 0%, 0%, 0.08);
+}
+.greyBack09 {
+  background: hsla(0, 0%, 0%, 0.09);
+}
+.greyBack10 {
+  background: hsla(0, 0%, 0%, 0.10);
+}
+.greyBack25 {
+  background: hsla(0, 0%, 0%, 0.25);
+}
+.greyBack50 {
+  background: hsla(0, 0%, 0%, 0.50);
+}
+.greyBack75 {
+  background: hsla(0, 0%, 0%, 0.75);
+}
+.greyBack100,
+.greyBackBlack {
+  background: hsla(0, 0%, 0%, 1);
+}
