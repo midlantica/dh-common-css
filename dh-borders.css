@@ -1,46 +1,90 @@
 .border0 {
-  border: 0px !important;
+  border-width: 0px !important;
 }
 .borderLeft0,
 .borderL0 {
-  border-left: 0px !important;
+  border-left-width: 0px !important;
 }
 .borderRight0,
 .borderR0 {
-  border-right: 0px !important;
+  border-right-width: 0px !important;
 }
 .borderBottom0,
 .borderB0 {
-  border-bottom: 0px !important;
+  border-bottom-width: 0px !important;
 }
 .borderTop0,
 .borderT0 {
-  border-top: 0px !important;
+  border-top-width: 0px !important;
 }
 .borderLR0,
 .borderX0 {
-  border-left: 0px !important;
-  border-right: 0px !important;
+  border-left-width: 0px !important;
+  border-right-width: 0px !important;
 }
 .borderTB0,
 .borderY0 {
-  border-top: 0px !important;
-  border-bottom: 0px !important;
+  border-top-width: 0px !important;
+  border-bottom-width: 0px !important;
 }
 
 
+.borderH {
+  border-width: .5px !important;
+}
 .border1 {
-  border: 1px !important;
+  border-width: 1px !important;
 }
 .border2 {
-  border: 2px !important;
+  border-width: 2px !important;
 }
 .border3 {
-  border: 3px !important;
+  border-width: 3px !important;
 }
 .border4 {
-  border: 4px !important;
+  border-width: 4px !important;
 }
 .border5 {
-  border: 5px !important;
+  border-width: 5px !important;
 }
+
+.borderW,
+.orderWhite {
+  border-color: white !important;
+}
+.borderGrey25,
+.borderGray25 {
+  border-color: hsla(0, 0%, 0%, 0.25) !important;
+}
+.borderGrey50,
+.borderGray50 {
+  border-color: hsla(0, 0%, 0%, 0.5) !important;
+}
+.borderGrey75,
+.borderGray75 {
+  border-color: hsla(0, 0%, 0%, 0.75) !important;
+}
+.borderK,
+.borderBlack {
+  border-color: black !important;
+}
+
+.borderStyle-solid {
+  border-style: solid !important;
+}
+.borderStyle-dashed {
+  border-style: dashed !important;
+}
+.borderStyle-solid {
+  border-style: solid !important;
+}
+.borderStyle-dotted {
+  border-style: dotted !important;
+}
+.borderStyle-dotted {
+  border-style: solid !important;
+}
+
+/* border-color: rgb(255 70 70) !important;
+border-style: solid !important;
+border-width: 10px !important; */
