@@ -15,11 +15,11 @@
 */
 
 /* // MARGIN AUTOS */
-.marAuto, .marXYAuto    { margin: auto; }
-.marLAuto   { margin-left:    auto !important; }
-.marRAuto   { margin-right:   auto !important; }
-.marLRAuto, .marXAuto  { margin-left: auto !important; margin-right: auto !important; }
-.marTBAuto, .marYAuto  { margin-top: auto !important; margin-bottom: auto !important; }
+.marAuto, .marA, .marXYAuto    { margin: auto; }
+.marLAuto, .marLA   { margin-left:    auto !important; }
+.marRAuto, .marRA   { margin-right:   auto !important; }
+.marLRAuto, .marXAuto, .marXA { margin-left: auto !important; margin-right: auto !important; }
+.marTBAuto, .marYAuto, .marYA  { margin-top: auto !important; margin-bottom: auto !important; }
 .marTAuto { margin-top: auto !important; }
 .marBAuto { margin-bottom: auto !important; }
 /**********************************************/
