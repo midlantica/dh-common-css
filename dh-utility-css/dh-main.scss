@@ -1,0 +1,67 @@
+// @import 'dh-normalize';
+// @import 'dh-breakpoints';
+@import 'dh-colors-root';
+@import 'dh-colors-basics';
+@import 'dh-cursor';
+
+@import 'dh-background';
+@import 'dh-background-colors';
+@import 'dh-borders';
+@import 'dh-border-colors';
+@import 'dh-border-radius';
+@import 'dh-buttons';
+// @import 'dh-font-smoothing';
+@import 'dh-display';
+@import 'dh-elevation';
+@import 'dh-flex';
+@import 'dh-float';
+@import 'dh-fonts';
+@import 'dh-font-size';
+@import 'dh-gap';
+@import 'dh-grid';
+@import 'dh-line-height';
+@import 'dh-opacity';
+@import 'dh-overflow';
+// @import 'dh-linked-colors';
+
+// @import 'dh-forms';
+@import 'dh-panels';
+@import 'dh-position';
+@import 'dh-mortar';
+// @import 'dh-shadows';
+@import 'dh-scrollbar';
+@import 'dh-visibility';
+// @import 'dh-truncate';
+// @import 'dh-typography';
+@import 'dh-widths-heights';
+@import 'dh-xOut';
+@import 'dh-z-index';
+
+// img,
+// video,
+// audio {
+//   max-width: 100%;
+//   height: auto;
+// }
+
+::selection {
+  color: #000;
+  background: #fbd404;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.hoverYellow:hover {
+  background: hsl(51, 100%, 87%) !important;
+}
+
+.fillW,
+.fillWhite {
+  fill: white;
+}
+.fillK,
+.fillBlack {
+  fill: black;
+}
