@@ -81,10 +81,6 @@
 .borderStyle-dotted {
   border-style: dotted !important;
 }
-.borderStyle-dotted {
-  border-style: solid !important;
+.borderStyle-none {
+  border-style: none !important;
 }
-
-/* border-color: rgb(255 70 70) !important;
-border-style: solid !important;
-border-width: 10px !important; */
