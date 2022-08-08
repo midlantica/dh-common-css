@@ -1,0 +1,24 @@
+.float-left { float: left; }
+.float-right { float: right; }
+.float-none { float: none; }
+
+.clear-right { clear: right; }
+.clear-left { clear: left; }
+.clear-both { clear: both; }
+
+.clearfix {
+  //
+  &:after {
+    content: "" !important;
+    display: table !important;
+    clear: both !important;
+  }
+}
+
+@mixin clearfix {
+  &:after {
+    content: "" !important;
+    display: table !important;
+    clear: both !important;
+  }
+}
